@@ -7,7 +7,7 @@ extent management local
 segment space management manual
 logging;
 
-
+--COMENTARIO 1
 create temporary tablespace temp_bdtareita1
 tempfile 'D:\Dosdescargas\temp_bdtareita101.dbf' size 20m
 extent management local
@@ -431,3 +431,4 @@ BEGIN
   RETURN rc;
 END;
 /
+
